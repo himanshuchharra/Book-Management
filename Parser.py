@@ -1,5 +1,4 @@
 from app.bank.test1 import Bank
-# from bank.parser_bmo import ParseRBC
 import importlib
 
 xml_path = 'Study_App4July2018.xml'
