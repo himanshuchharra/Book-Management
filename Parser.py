@@ -4,9 +4,7 @@ import importlib
 
 xml_path = 'Study_App4July2018.xml'
 parsebank_obj = Bank()
-# data = obj.parse(xml_path)
 bank_name, page_tag = parsebank_obj.parse(xml_path)
-
 
 module_path = 'app.' + 'bank.' + 'parser_bmo'
 module = importlib.import_module(module_path)
